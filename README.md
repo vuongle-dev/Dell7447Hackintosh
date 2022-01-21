@@ -1,6 +1,7 @@
 
 # Dell 7447 Hackintosh
 EFI and Instruction to install hackintosh on Dell 7447
+**I make this EFI to MacOS Monterey 12.1, you can try it with older version anyway**
 
 ![enter image description here](./img/screenshot-1.png)
 
