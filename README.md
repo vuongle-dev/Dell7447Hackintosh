@@ -1,7 +1,8 @@
 
 # Dell 7447 Hackintosh
-EFI and Instruction to install hackintosh on Dell 7447
-**I make this EFI to MacOS Monterey 12.1, you can try it with older version anyway**
+EFI and Instruction to install hackintosh on Dell 7447. 
+
+**I make this EFI to install MacOS Monterey 12.1, you can try it with older version anyway**
 
 ![enter image description here](./img/screenshot-1.png)
 
@@ -29,7 +30,7 @@ For first time installing you should use Debug package which enable verbose for 
 - Power Management
 - File Vault
 - USB mapped
-- Everything except not mentioning
+- Everything except which mentioned below
 ### What's not working?
 - dGPU disabled
 - SD Card Reader
@@ -52,4 +53,4 @@ If the BIOS doesn't regconize OpenCore, you can go to BIOS Setup and Add boot op
 You can also set LauncherOption=Full with this guide https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html to launch OpenCore from your BIOS firmware directly to prevent issues if Windows or Linux try to overwrite the BOOTx64.efi.
 
 ### Contribute
-If you have issue or have anything better to optimize this EFI, you can open issue so I can fix it after.
+If you have issue or have any advice to optimize this EFI, you can open issue so I can fix it after.
